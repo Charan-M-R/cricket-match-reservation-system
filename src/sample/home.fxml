@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+    <left>
+        <AnchorPane prefHeight="400.0" prefWidth="142.0" style="-fx-background-color: #3C8DAD;" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="paym" layoutX="13.0" layoutY="49.0" mnemonicParsing="false" onAction="#goPaym" text="Payment Method" />
+                <Button fx:id="orders" layoutX="13.0" layoutY="82.0" mnemonicParsing="false" onAction="#goOrders" prefHeight="26.0" prefWidth="108.0" text="Orders" />
+            <Button fx:id="home" layoutX="41.0" layoutY="361.0" mnemonicParsing="false" onAction="#goHome" text="Back" />
+            </children></AnchorPane>
+    </left>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: FFED99;" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane layoutX="21.0" layoutY="21.0" prefHeight="46.0" prefWidth="415.0" style="-fx-background-color: white;">
+                    <children>
+                        <Label fx:id="l1" layoutX="14.0" layoutY="7.0" prefHeight="35.0" prefWidth="297.0" />
+                        <Button fx:id="select1" layoutX="332.0" layoutY="10.0" mnemonicParsing="false" onAction="#select1Action" text="SELECT" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="21.0" layoutY="87.0" prefHeight="50.0" prefWidth="414.0" style="-fx-background-color: WHITE;">
+                    <children>
+                        <Button fx:id="select2" layoutX="335.0" layoutY="12.0" mnemonicParsing="false" onAction="#select2Action" text="SELECT" />
+                        <Label fx:id="l2" layoutX="14.0" layoutY="7.0" prefHeight="43.0" prefWidth="306.0" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="22.0" layoutY="153.0" prefHeight="46.0" prefWidth="414.0" style="-fx-background-color: WHITE;">
+                    <children>
+                        <Button fx:id="select3" layoutX="332.0" layoutY="10.0" mnemonicParsing="false" onAction="#select3Action" text="SELECT" />
+                        <Label fx:id="l3" layoutX="14.0" layoutY="3.0" prefHeight="43.0" prefWidth="306.0" />
+                    </children>
+                </AnchorPane>
+            <AnchorPane layoutX="22.0" layoutY="222.0" prefHeight="50.0" prefWidth="415.0" style="-fx-background-color: white;">
+               <children>
+                  <Button fx:id="select4" layoutX="331.0" layoutY="12.0" mnemonicParsing="false" onAction="#select4Action" text="SELECT" />
+                  <Label fx:id="l4" layoutX="14.0" layoutY="5.0" prefHeight="40.0" prefWidth="270.0" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="21.0" layoutY="293.0" prefHeight="41.0" prefWidth="415.0" style="-fx-background-color: white;">
+               <children>
+                  <Button fx:id="select5" layoutX="335.0" layoutY="9.0" mnemonicParsing="false" onAction="#select5Action" text="SELECT" />
+                  <Label fx:id="l5" layoutX="14.0" layoutY="5.0" prefHeight="38.0" prefWidth="268.0" />
+               </children>
+            </AnchorPane>
+            </children></AnchorPane>
+    </center>
+</BorderPane>

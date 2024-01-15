@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OrdersController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="142.0" style="-fx-background-color: #3C8DAD;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="back" layoutX="41.0" layoutY="361.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Label alignment="CENTER" layoutX="17.0" layoutY="66.0" prefHeight="110.0" prefWidth="107.0" style="-fx-background-color: white;" text="ORDERS">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: FFED99;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="22.0" layoutY="10.0" prefHeight="65.0" prefWidth="415.0" style="-fx-background-color: white;">
+               <children>
+                  <Label fx:id="l1" layoutX="5.0" layoutY="7.0" prefHeight="50.0" prefWidth="400.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="21.0" layoutY="85.0" prefHeight="65.0" prefWidth="414.0" style="-fx-background-color: WHITE;">
+               <children>
+                  <Label fx:id="l2" layoutX="5.0" layoutY="7.0" prefHeight="50.0" prefWidth="400.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="22.0" layoutY="160.0" prefHeight="65.0" prefWidth="414.0" style="-fx-background-color: WHITE;">
+               <children>
+                  <Label fx:id="l3" layoutX="5.0" layoutY="7.0" prefHeight="50.0" prefWidth="400.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="22.0" layoutY="235.0" prefHeight="65.0" prefWidth="415.0" style="-fx-background-color: white;">
+               <children>
+                  <Label fx:id="l4" layoutX="5.0" layoutY="7.0" prefHeight="50.0" prefWidth="400.0" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="22.0" layoutY="310.0" prefHeight="65.0" prefWidth="415.0" style="-fx-background-color: white;">
+               <children>
+                  <Label fx:id="l5" layoutX="5.0" layoutY="7.0" prefHeight="50.0" prefWidth="400.0" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

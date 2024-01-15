@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SampleController">
+    <left>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3C8DAD;" BorderPane.alignment="CENTER">
+            <children>
+                <TextArea editable="false" layoutX="27.0" layoutY="125.0" prefHeight="125.0" prefWidth="131.0" style="-fx-font-size: 16; -fx-background-color: #FFED99;" text="CRICKET&#10;MATCH &#10;RESERVATION &#10;SYSTEM" />
+            </children></AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="400.0" prefWidth="410.0" style="-fx-background-color: FFED99;" BorderPane.alignment="CENTER">
+            <children>
+                <Button id="login" fx:id="login" layoutX="190.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleLogin" text="Login" />
+                <PasswordField fx:id="password" layoutX="182.0" layoutY="187.0" promptText="Password" />
+                <Label layoutX="36.0" layoutY="187.0" prefHeight="18.0" prefWidth="88.0" text="Password" />
+                <Label layoutX="36.0" layoutY="141.0" text="Username" />
+                <TextField fx:id="username" layoutX="182.0" layoutY="137.0" promptText="Username" />
+                <Label layoutX="131.0" layoutY="27.0" prefHeight="46.0" prefWidth="138.0" style="-fx-font-size: 18;" text="LOGIN PAGE" />
+            <Button fx:id="create" layoutX="180.0" layoutY="287.0" mnemonicParsing="false" onAction="#createFunc" text="Create ID" />
+            <CheckBox fx:id="admin_chk" layoutX="187.0" layoutY="98.0" mnemonicParsing="false" text="Admin Login" />
+            </children>
+        </AnchorPane>
+    </right>
+</BorderPane>

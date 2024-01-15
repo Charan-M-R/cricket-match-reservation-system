@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PayMethodsController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3C8DAD;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="61.0" layoutY="158.0" text="Payment &#10;methods&#10;accepted" textFill="#fdfbfb">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="backpaym" layoutX="74.0" layoutY="354.0" mnemonicParsing="false" onAction="#goBackPaym" text="Back" />
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="450.0" style="-fx-background-color: FFED99;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="label" layoutX="98.0" layoutY="95.0" text="UPI" textFill="#0b0b0b">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="100.0" layoutY="200.0" text="2) PhonePe">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="98.0" layoutY="254.0" text="3) Paytm">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="98.0" layoutY="149.0" text="1) GPay">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="54.0" fitWidth="66.0" layoutX="232.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@3.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="52.0" fitWidth="54.0" layoutX="232.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@1.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="87.0" layoutX="232.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
